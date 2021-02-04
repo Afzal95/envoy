@@ -25,7 +25,7 @@
     margin: 0.5%;
     padding: 5px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 700;
     font-family: cursive;
     
@@ -43,4 +43,73 @@
 }
 #logo_text{
     font-size: 40px;
+}
+.index_box_a{
+    background-image: url("index_background_a.png");
+   
+    width: 98%;
+    height: 800px;
+}
+.index_box_a > div{
+   
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 80px;
+
+}
+#index_box_a_cont > p:nth-child(1){
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 40px;
+    color: black;
+}
+#index_box_a_cont > p{
+    line-height: 1.6;
+    font-family: monospace;
+    font-size: 15px;
+    color: gray;
+}
+#index_box_a_cont input[type]{
+    height: 30px;
+    width: 40%;
+}
+.index_box_b{
+    
+    display: grid;
+    grid-template-columns: 20% 20% 30%;
+    grid-template-rows: 200px 200px;
+    padding: 50px;
+    grid-gap: 10%;
+    padding-left: 15%;
+}
+.index_box_b > div{
+    
+    color: black;
+
+    font-weight: 500;
+}
+.index_box_b > div span{
+    font-size: 30px;
+    margin-left: 5%;
+}
+.bottom-option{
+    color: orangered;
+    font-size: 15px;
+    margin-right: 10%;
+    float: left;
+}
+ 
+ 
+.index_box_b > div > img{
+    height:50px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.index_box_b > div:nth-child(6){
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 700;
+}
+.index_box_b > div > p{
+    color: gray;
 }
