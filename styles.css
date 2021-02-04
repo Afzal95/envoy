@@ -1,11 +1,46 @@
 #top-blue-bar{
     width: 100%;
-    height: 20px;
-    padding-top: 5px;
+    height: 40px;
+    padding-top: 8px;
     padding-bottom: 5px;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: cursive;
     color: white;
     text-align: center;
     background-color: rgb(56, 56, 170);
+}
+#top-blue-bar a{
+    color: white;
+}
+.navbar{
+   
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30px;
+    
+}
+.navbar > div{
+    
+    color:black;
+    margin: 0.5%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    
+}
+#navbox-2{
+    margin-left: 40%;
+}
+#navbox-1>img{
+    height: 60px;
+    widows: 60px;;
+    margin-bottom: 2px;
+}
+#navbox + div{
+    font-size: 50px;
+}
+#logo_text{
+    font-size: 40px;
 }
