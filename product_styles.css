@@ -1,8 +1,12 @@
 #main {
   background-color: whitesmoke;
 }
+
+/* ///FIRST SECTION - ONE CSS/// */
+
 #one {
   display: flex;
+  flex-direction: row;
 }
 .left {
   width: 40%;
@@ -20,8 +24,56 @@ input {
 #submit-button {
   height: 48px;
   padding: 10px;
+  font-weight: 750;
   background-color: red;
   color: white;
   border: none;
   border-radius: 5px;
+}
+h1 {
+  color: #3f4450;
+}
+h6,
+p {
+  color: #868d9d;
+  text-align: left;
+}
+#cont-p {
+  font-size: 16px;
+}
+#cont-p > a {
+  color: red;
+  text-decoration: none;
+}
+.right {
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+#one-right > img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  #one {
+    flex-direction: column;
+  }
+  #one-left {
+    width: 80%;
+  }
+  #form {
+    width: auto;
+  }
+  #email {
+    width: 100%;
+  }
+  #submit-button {
+    width: 104%;
+  }
+  #cont-p {
+    text-align: center;
+  }
+  .right {
+    margin: 0;
+  }
 }
