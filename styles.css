@@ -113,3 +113,28 @@
 .index_box_b > div > p{
     color: gray;
 }
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+  }
+  .index_c_video{
+      width: 100%;
+      height: 600px;
+      border: 1px solid black;
+      background-image: url("index_c_image.png");
+      background-size: contain;
+  }
+  .index_c_video > iframe{
+      margin-left: 30%;
+      margin-top: 60px;
+      opacity: 0.0;
+  }
