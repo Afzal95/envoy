@@ -175,6 +175,7 @@ span{
     display: flex;
     flex-direction: row;
     gap: 200px;
+    margin-left:320px;
 }
 .flex > div >img{
     width: 55px;
@@ -183,13 +184,20 @@ span{
 }
 .flex > div>p{
     float: left;
-    margin-left: 98px;
-    margin-top: -28px;
+    margin-left: 96px;
+    margin-top: -26px;
+    color: #7e8086;
+    font-size: 16px;
 }
 .flex > div >h3{
     color:#3f4450;
     font-weight: 600;
     font-size: 24px;
+    margin-top: 15px
+}
+
+.protect > div:nth-child(2){
+    margin-left: -77px;
 }
 
 
