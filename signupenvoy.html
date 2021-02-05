@@ -34,19 +34,31 @@
         .dot{
             color: red;
             font-size: 50px;
-            
         }
-        #account input{
+        #account>form>input{
          width:100%;
          height:30px;
          border: 1px solid rgb(209, 208, 208);
          border-radius: 5px
         }
-        #account>#Fname{
-            width: 130px;
+        #flexcont{
+            display: flex;
+    
+            }
+        #flexcont>div{
+            flex-grow: 2;
         }
-        #account>#Lname{
-            width: 130px;
+        #Fname{
+            width: 94%;
+            border-radius: 5px;
+            height: 30px;
+            border: 1px solid rgb(209, 208, 208);
+        }
+        #Lname{
+            width: 98%;
+            border-radius: 5px;
+            height: 30px;
+            border: 1px solid rgb(209, 208, 208);
         }
 
     </style>
@@ -57,14 +69,18 @@
         </div>
         <div id="account">
             <h3>Create your Envoy Account</h3>
+            <form>
             <label for="mail" >Work Email <span class="dot">.</span></label>
             <input type="text" id="mail"></input>
-            <label for="Fname" >First Name <span class="dot">.</span></label>
-            <input type="text" id="Fname"></input>
-            <label for="Lname" >Last Name <span class="dot">.</span></label>
-            <input type="text" id="Lname"></input>
+            <div id="flexcont">
+                <div><label for="Fname" >First Name <span class="dot">.</span></label>
+                <input type="text" id="Fname"></input></div>
+                <div><label for="Lname" >Last Name <span class="dot">.</span></label>
+                <input type="text" id="Lname"></input></div>
+            </div>
             <label for="pass">Create a Password<span class="dot">.</span></label>
             <input type="text" id="pass"></input>
+        </form>
         </div>
     </div>
  
