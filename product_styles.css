@@ -97,12 +97,10 @@ p {
 #overview-1 > div {
   width: 40%;
   margin: 2%;
-}
-
-#overview-1 > div {
   margin-left: 50px;
   margin-top: 50px;
 }
+
 #overview-1 > div > h1 {
   font-size: 42px;
   margin-bottom: 30px;
@@ -117,6 +115,30 @@ p {
 .desc > p {
   font-size: 20px;
 }
+
+#overview-2 {
+  display: flex;
+  background-color: whitesmoke;
+}
+#overview-2 > div {
+  width: 40%;
+  margin: 2%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+#overview-2 > div:nth-child(2) {
+  width: 25%;
+  margin-left: 150px;
+}
+#overview-2 > div > h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+#overview-2 > div > p {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
 #overview-3 {
   display: flex;
 }
