@@ -210,39 +210,39 @@ p {
 #overview-5 p {
   text-align: center;
 }
-#features-1 {
-  margin-left: 45px;
+.features-1 {
+  margin-left: 80px;
 }
-#feature-1-grid {
+.feature-1-grid {
   display: grid;
-  grid-gap: 0.5%;
+  grid-gap: 8px;
   grid-template:
     "one two three four"
     "five six seven eight";
 }
-#feature-1-grid > div {
+.feature-1-grid > div {
   height: 200px;
   width: 80%;
 }
 .feat-margin {
   margin-top: 10px;
 }
-#feature-1-grid > div > div > p {
+.feature-1-grid > div > div > p {
   text-align: left;
 }
-#feature-1-grid > div > div > img {
+.feature-1-grid > div > div > img {
   width: 10%;
   margin-left: 5px;
   padding: 10px;
   background-color: whitesmoke;
   border-radius: 50%;
 }
-#feat-key {
+.feat-key {
   width: 50%;
   margin-top: 100px;
   margin-bottom: 60px;
 }
-#feat-key > h1 {
+.feat-key > h1 {
   font-size: 42px;
 }
 #f-one {
@@ -269,15 +269,6 @@ p {
 }
 #eight {
   grid-area: eight;
-}
-#f1-coming {
-  font-weight: 20;
-  padding: 5px;
-  border-bottom-left-radius: 20%;
-  border-bottom-right-radius: 20%;
-  border-top-left-radius: 20%;
-  border-top-right-radius: 20%;
-  background-color: rgb(177, 206, 50);
 }
 #features-2 {
   background-color: #f9423d;
@@ -325,6 +316,24 @@ p {
   border: none;
   background-color: #29228fee;
 }
+#features-4 {
+  margin-bottom: 300px;
+}
+.f4-img-div > div > {
+  font-size: 22px;
+  line-height: 1.25;
+}
+#f4-one {
+  grid-area: one;
+  margin-top: 15px;
+}
+#f4-two {
+  grid-area: two;
+  margin-top: 15px;
+}
+#f4-three {
+  grid-area: three;
+}
 /* ul > li > div {
   border: 1px solid #ccc;
   border-radius: 100%;
@@ -336,7 +345,7 @@ p {
   background-color: red;
 } */
 
-/* @media only screen and (max-width: 992px) {
+@media only screen and (max-width: 720px) {
   #one {
     flex-direction: column;
   }
@@ -358,4 +367,17 @@ p {
   .right {
     margin: 0;
   }
-} */
+  .feature-1-grid {
+    display: grid;
+    grid-gap: 0.5%;
+    grid-template:
+      "one"
+      "two "
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven"
+      "eight";
+  }
+}
