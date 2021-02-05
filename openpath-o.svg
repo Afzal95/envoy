@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="40px" viewBox="0 0 37 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Openpath</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1073.000000, -4741.000000)" fill="#F96715">
+            <g id="Integrations" transform="translate(1.000000, 3981.000000)">
+                <g id="Cards" transform="translate(112.000000, 487.000000)">
+                    <g id="Integration" transform="translate(936.000000, 249.000000)">
+                        <path d="M42.5,24 C52.7172679,24 61,32.954305 61,44 C61,55.045695 52.7172679,64 42.5,64 C32.2827321,64 24,55.045695 24,44 C24,32.954305 32.2827321,24 42.5,24 Z M42.5,29.8883725 C35.6165291,29.8883725 30.0363734,36.1501301 30.0363734,43.8743996 C30.0363734,51.598669 35.6165291,57.8604267 42.5,57.8604267 C49.3834709,57.8604267 54.9636266,51.598669 54.9636266,43.8743996 C54.9636266,36.1501301 49.3834709,29.8883725 42.5,29.8883725 Z" id="Openpath"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
