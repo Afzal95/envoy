@@ -4,49 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create your Envoy Account</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <style type="text/css">
         body{
-            background-color:rgb(247, 240, 240);
+            background-color:rgb(212, 205, 205);
             padding: 1%;
+            font-family: 'Lato', sans-serif;
+        
         }
         #cont {
-           border:1px solid black;
            width: 40%;
-           height: 580px;
-           padding: 2%;
+           height: 585px;
+           padding: 1%;
            background-color: white;
            margin: auto;
+           color: rgb(54, 54, 54);
        }
        #image {
-           margin-bottom: 20px;
+           margin-bottom: 5px;
        }
        #image img{
            float:right;
        }
        #account {
-           border: 1px solid black;
-           padding: 3%;
-           margin-top: 10%;
+           width: 80%;
+           margin: auto;
+           padding: 4%;
+           padding-right: 0%;
         }
         #account>h3>{
             font-size: 20px;
+            color: black;
         }
         .dot{
             color: red;
             font-size: 50px;
-            
         }
-        #account input{
-         width:100%;
+        #account>form>input{
+         width:95%;
          height:30px;
          border: 1px solid rgb(209, 208, 208);
          border-radius: 5px
         }
-        #account>#Fname{
-            width: 130px;
+        #flexcont{
+            display: flex;
+    
+            }
+        #flexcont>div{
+            flex-grow: 2;
         }
-        #account>#Lname{
-            width: 130px;
+        #Fname,#Lname{
+            width:90%;
+            border-radius: 5px;
+            height: 30px;
+            border: 1px solid rgb(209, 208, 208);
+        }
+        
+        .clean{
+            text-decoration: none;
+            color: rgba(18, 53, 209, 0.849);
+        }
+        button{
+           margin-top: 6%;
+           background-color: red;
+           border: 1px solid red;
+           height: 40px;
+           width:20%;
+           color: white;
+           font-size: 15px;
+           border-radius: 5px;
+           float: right;
+        }
+        .pass{
+            font-size: 13px;
         }
 
     </style>
@@ -57,14 +88,21 @@
         </div>
         <div id="account">
             <h3>Create your Envoy Account</h3>
+            <form>
             <label for="mail" >Work Email <span class="dot">.</span></label>
             <input type="text" id="mail"></input>
-            <label for="Fname" >First Name <span class="dot">.</span></label>
-            <input type="text" id="Fname"></input>
-            <label for="Lname" >Last Name <span class="dot">.</span></label>
-            <input type="text" id="Lname"></input>
+            <div id="flexcont">
+                <div><label for="Fname" >First name <span class="dot">.</span></label>
+                <input type="text" id="Fname"></input></div>
+                <div><label for="Lname" >Last name <span class="dot">.</span></label>
+                <input type="text" id="Lname"></input></div>
+            </div>
             <label for="pass">Create a Password<span class="dot">.</span></label>
             <input type="text" id="pass"></input>
+            <p class="pass">Password must be at least 8 characters and contain at least one capital letter, one lower case letter, and one number.</p>
+             <p class="pass">By clicking "Next" you agree to our <a href="" class="clean">Terms of Service, Privacy Policy, </a> and to receive marketing communications from Envoy.</p>
+             <button>Next ></button>
+            </form>
         </div>
     </div>
  
