@@ -1,0 +1,152 @@
+
+html{
+    
+    font-family: SofiaPro,helvetica neue,Helvetica,Arial,sans-serif;
+
+
+}
+#main_block{
+    background-image: url(https://envoy.com/images/enterprise/ent-hero-xl.svg);
+    background-size: 2530px 669px;
+    padding-bottom: 112px;
+    padding-top:112px ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-color: #4141a2;
+}
+#main_block >div{
+    margin-top: -90px;
+    margin-left: 20px;
+    
+    
+
+}
+#main_block > div >img{
+        height: 35px;
+
+}
+#main_block>div:nth-child(2)>span{
+    color:#bdccff;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+#main_block>div:nth-child(2)>h1{
+    font-size: 56px;
+    line-height: 52px;
+    padding-right: 20px;
+    margin-bottom: 32px;
+    color: white;
+    font-weight: 545;
+}
+
+#main_block>div:nth-child(2)>h2{
+    color:#bdccff;
+    font-size: 24px;
+    margin-bottom: 32px;
+    font-weight: 400;
+
+}
+#main_block > div:nth-child(2){
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+#main_block > div:nth-child(3)>form>input{
+    background-color: #31317c;
+    color: #bdccff;
+    border-top-color: rgb(111, 131, 255) !important;
+    border-right-color: rgb(111, 131, 255) !important;
+    border-bottom-color: rgb(111, 131, 255) !important;
+    border-left-color: rgb(111, 131, 255) !important;
+    font-weight: 400;
+
+}
+input[placeholder]{
+    color:#bdccff;
+    font-size: 15px;
+
+}
+#main_block > div:nth-child(3)>form>button{
+    color: #4141a2;
+    font:16px;
+    padding: 1px 24px ;
+    background-color: #D3D236;
+    height: 43px;
+    width: 170px;
+    
+}
+
+
+#main_block > div:nth-child(3)>form{
+    margin-left: -420px;
+    margin-top: 120px;
+}
+form+p{
+    color: #bdccff;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 330px;
+    margin-top: 30px;
+
+}
+form+p>a{
+    color:#D3D236;
+    font-size: 16px;
+}
+
+#enterprice{
+    background-color: #4141a2;
+}
+#enterprice>div{
+    margin-left: 360px;
+    margin-top: 10px;
+}
+#enterprice>div>img{
+    margin-top: 10px;
+}
+#container{
+    display: flex;
+    justify:center;
+
+    gap:20px
+}
+#container>a:nth-child(n){
+    color:#3f4450;
+    padding-top: 50px;
+    text-align: center;
+    
+    padding-right: 16px;
+    font-weight: 600;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
