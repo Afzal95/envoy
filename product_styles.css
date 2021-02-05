@@ -279,6 +279,28 @@ p {
   border-top-right-radius: 20%;
   background-color: rgb(177, 206, 50);
 }
+#features-2 {
+  background-color: #f9423d;
+  height: 700px;
+}
+#feature-2-div {
+  width: 60%;
+  padding: 50px;
+  margin: 100px auto;
+}
+#feature-2-div > h1 {
+  font-size: 50px;
+  padding-top: 80px;
+}
+#feature-2-div > p {
+  font-size: 20px;
+}
+#feature-2-div > h1,
+#feature-2-div > h2,
+#feature-2-div > p {
+  color: white;
+}
+
 /* ul > li > div {
   border: 1px solid #ccc;
   border-radius: 100%;
