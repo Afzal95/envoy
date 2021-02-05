@@ -111,6 +111,11 @@
     var desc_h2 = document.querySelectorAll(".desc>a>h2");
     var desc_p  = document.querySelectorAll(".desc>p");
     var right_img=document.querySelectorAll("#right>img");
+    right_img.forEach(function(el,i){
+        el.style.display="none";
+    });
+    right_img[0].style.display="block";
+    
     //overview-1 image and headings part//
     desc_h2.forEach(function(el){
         el.addEventListener("mouseover",function(){
@@ -126,12 +131,20 @@
             if(desc_p[index].style.display=="none"){
                 desc_p.forEach(function(el,i){
                     el.style.display="none";
-                    right_img[i].style.display="none"
+                  
+                })
+                right_img.forEach(function(el,i){
+                    el.style.display="none";
+                  
                 })
                 desc_p[index].style.display="block";
                 right_img[index].style.display="block";
             }else{
                 desc_p[index].style.display="none";
+                right_img.forEach(function(el,i){
+                    el.style.display="none";
+                  
+                })
             }
         });
     });
