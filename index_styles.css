@@ -16,7 +16,7 @@
    
     display: flex;
     flex-direction: row;
-    flex-basis: 30px;
+    flex-basis: 30p;
     
 }
 .navbar > div{
@@ -24,11 +24,14 @@
     color:black;
     margin: 0.5%;
     padding: 3px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 20px;
+}
+.navbar > div >a:hover{
+    color: red;
 }
 #navbox-2{
     margin-left: 40%;
@@ -53,7 +56,7 @@
 .index_box_a > div{
    
     width: 30%;
-    margin-left: 50%;
+    margin-left: 45%;
     margin-top: 50px;
 
 }
@@ -69,16 +72,20 @@
 }
 #index_box_a_cont > p:nth-child(1){
     padding-top: 50px;
-    font-weight: bold;
+    font-weight:900;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
-    color: black;
+    color: #3F4450;
 }
 #index_box_a_cont > p{
     line-height: 1.6;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: gray;
+    
+}
+.index_box_a div:nth-child(1){
+    padding-top: 50px;
     
 }
 #index_box_a_cont input[type]{
@@ -167,7 +174,7 @@
       color: rgb(158, 158, 158);
       line-height: 1.6;
   }
-  .index_d input{
+  .index_d> a >input{
       color: white;
       background: rgb(85, 85, 146);
       width: 10%;
@@ -230,7 +237,7 @@
        padding-top:6% ;
 
     }
-    .index_f_upper input{
+    .index_f_upper a input{
         padding: 4px 3px;
         margin-top: 20px;
         color: white;
@@ -276,7 +283,7 @@
         color: #3F4450;
     
     }
-    .index_e > div:nth-child(3) > div > img{
+    .index_e > div:nth-child(3) > div > a> img{
         width: 100%;
         border-radius: 6px;
         /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -309,7 +316,7 @@
      color:#3F4450 ;
      padding-bottom: 30px;
  }
- .index_g > div:nth-child(1)>input{
+ .index_g > div:nth-child(1)>a>input{
      color: white;
      background:#FA4338;
      width: 35%;
@@ -317,7 +324,7 @@
      font-size: 17px;
      border-radius: 5px;
  }
- .index_g > div:nth-child(1) > input:hover{
+ .index_g > div:nth-child(1) > a>input:hover{
     background: #E23C32;
  }
  .index_g > div:nth-child(2){
@@ -366,7 +373,7 @@
  .index_h > div:nth-child(2){
      margin-top: 60px;
  }
- .index_h > div:nth-child(2) > span{
+ .index_h > div:nth-child(2) > a>span{
     color: #FA4338;
     margin-top: 5px;
     margin-bottom: 5px;   
@@ -408,10 +415,10 @@
      grid-gap: 1%;
      margin-left: 16%;
  }
- .footer>div:nth-child(1)>div{
+ .footer>div:nth-child(1)>a>div{
     text-align: center;
  }
- .footer>div:nth-child(1)>div:hover{
+ .footer>div:nth-child(1)>a>div:hover{
     color: red;
  }
  .footer>div:nth-child(2){
