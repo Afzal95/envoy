@@ -281,12 +281,12 @@ p {
 }
 #features-2 {
   background-color: #f9423d;
-  height: 700px;
+  height: 830px;
 }
 #feature-2-div {
   width: 60%;
   padding: 50px;
-  margin: 100px auto;
+  margin: 100px auto 10px;
 }
 #feature-2-div > h1 {
   font-size: 50px;
@@ -300,7 +300,31 @@ p {
 #feature-2-div > p {
   color: white;
 }
-
+#feature-2-hr {
+  background-color: #f9423d;
+  width: 100%;
+  margin: auto;
+}
+#feature-2-hr > hr {
+  width: 80%;
+}
+#feature-2-hr > img {
+  height: 35px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+#feature-2-hr > button {
+  height: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+  margin-left: 59.5%;
+  margin-top: 50px;
+  color: white;
+  border: none;
+  background-color: #29228fee;
+}
 /* ul > li > div {
   border: 1px solid #ccc;
   border-radius: 100%;
