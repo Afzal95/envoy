@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="index_styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <script src="index_script.js"></script>
@@ -10,14 +11,14 @@
         </div>
         <div class="navbar">
             <div id="navbox-1"><img src="download.png" alt="envoy logo"></div>
-            <div id="logo_text">Envoy</div>
-            <div id="navbox-2" style="padding-top: 25px;">Products</div>
-            <div id="navbox-3" style="padding-top: 25px;">Solutions</div>
-            <div id="navbox-4" style="padding-top: 25px;">Customer Stories</div>
-            <div id="navbox-5" style="padding-top: 25px;">Demo</div>
+            <div id="logo_text"><a href="index.html">Envoy</a></div>
+            <div id="navbox-2" style="padding-top: 25px;"><a href="products.html">Products</a></div>
+            <div id="navbox-3" style="padding-top: 25px;"><a href="solutions.html">Solutions</a></div>
+            <div id="navbox-4" style="padding-top: 25px;"><a href="https://envoy.com/case-studies/"> Customer Stories</a></div>
+            <div id="navbox-5" style="padding-top: 25px;"><a href="https://envoy.com/demo/"> Demo</a></div>
             <div id="navbox-6" style="padding-top: 25px;">Pricing</div>
-            <div id="navbox-7" style="padding-top: 25px;">Login</div>
-            <div id="navbox-8" style="padding-top: margin-top:20px; 7px;padding-bottom: 10px;width: 5%;padding-left: 2%;border-radius: 5px;background: orangered;color: white;">Signup</div>
+            <div id="navbox-7" style="padding-top: 25px;"><a href="loginenvoy.html">Login</a></div>
+            <div id="navbox-8" style=" margin-top:28px;width: 5%;padding-left: 2%;border-radius: 5px;background: #E23C32;height: 20px;padding-top: 5px;"><a href="signupenvoy.html" style="color: white;">Sign up</a></div>
 
         </div>
         <div class="index_box_a">
@@ -25,7 +26,7 @@
                 <p>Helping the world get back to work.</p>
                 <p>Join the thousands of companies that use Envoy to create safe workplaces where employees can stay healthy and productive.</p>
                 <input type="email" name="email" id="email_box" placeholder="Enter your email" style="font-family: cursive;background-color:rgb(255, 249, 249) ;border-radius: 8px;">
-                <input type="submit" value="Get started" style="height: 35px; background-color: orangered;color: white; border-radius: 8px;"></input>
+                <input type="submit" value="Get started" style="height: 40px; background-color: #E23C32;color: white; border-radius: 8px;"></input>
                 <p>Talk to our sales team. <span style="color: orangered;">Contact us</span></p>
             </div>
         </div>`
@@ -75,21 +76,38 @@
             </div>
             
         </div>
-        <div class="index_c_video"  onmouseover="myFunction()" onmouseout="reverse()">
-            <iframe id="demo" title="vimeo-player" src="https://player.vimeo.com/video/476425296" width="640" height="360" frameborder="0" allowfullscreen></iframe>    
-        
+        <div class="index_c_video" id="video_div" onmouseover="myFunction()" onmouseout="reverse()">
+            <iframe id="demo" title="vimeo-player" src="https://player.vimeo.com/video/476425296" width="640" height="360" frameborder="0" allowfullscreen></iframe>     
         </div>
         <div class="index_d">
             
                 
                 <h1>The enterprise-grade <br> workplace platform</h1>
                 <p>Solve workplace challenges faster with the platform that keeps <br> employees and visitors safe, while ensuring your business stays <br> compliant and secure.</p>
-                <input type="submit" name="" id="learn-more" value="Learn more">
+                <a href="solutions.html"><input type="submit" name="" id="learn-more" value="Learn more"></a>
                
             
         </div>
         <div class="index_e">
-
+            <div>THE ENVOY BLOG</div>
+            <div>Keeping workplaces <br> safe and healthy</div>
+            <div>
+                <div onmouseover="cg1()" onmouseout="rc1()">
+                    <a href="https://envoy.com/blog/introducing-envoy-desks/"><img src="Envoy_desks.jpg" alt="envoy_desk" ></a>
+                    <h3 id="red_change1">Introducing envoy desks for flexible workspace</h3>
+                    <p>Envoy Desks is a hot desking solution specificlly desgined to hep companies adjust their workplace during COVID-19 and beyond.</p>
+                </div>
+                <div onmouseover="cg2()" onmouseout="rc2()">
+                    <a href="https://envoy.com/blog/workplace-health-questionnaires/"><img src="health-questionaires.jpg" alt="health-questionaires" ></a>
+                    <h3 id="red_change2">Health questionnaires:why you need them and how technology can help.</h3>
+                    <p>Learn how to keep your employees and visitors safe by adding a workplace health questionnaire to your registration process.</p>
+                </div>
+                <div onmouseover="cg3()" onmouseout="rc3()">
+                    <a href="https://envoy.com/covid-19-workplace-safety-resource-center/"><img src="covid-resources.png" alt="covid-resources" ></a>
+                    <h3 id="red_change3">Envoy's COVID-19 workplace safety resource center</h3>
+                    <p>Tips and tools to run an office that helps your team stay healthy and productive.</p>
+                </div>
+            </div>
         </div>
         <div class="index_f">
             <div class="index_f_upper">
@@ -98,12 +116,12 @@
                   <span style="color: #FEB0C5;
                   font-size: 20px;"> Companies of every size, industry, and address rely on Envoy to transform their workplaces.</span>
                   <p>
-                      <input type="submit" name="read" id="read" value="Read all stories">
+                    <a href="https://envoy.com/case-studies/">  <input type="submit" name="read" id="read" value="Read all stories"></a>
                   </p>
                 </div>
                 <div>
                     <div>
-                        <img src="mailchimp.jpg" alt="mailchimp">
+                        <a href="https://envoy.com/case-studies/mailchimp/"><img src="mailchimp.jpg" alt="mailchimp"></a>
                         <h4>MailChimp</h4>
                         Even a strong misfit culture needs safety solutions.
                         <p style="color: #BE3229; font-size: 14px;font-weight: 600;">Learn from their transformations.</p>
@@ -111,12 +129,12 @@
                 </div>
                 <div>
                     <div>
-                        <img src="pandora.jpg" alt="pandora">
+                        <a href="https://envoy.com/case-studies/pandora/"><img src="pandora.jpg" alt="pandora"></a>
                         <h4>Pandora</h4>
                         Tuning in to the best possible visitor experience.<p style="color: #BE3229; font-size: 14px;font-weight: 600;">Hear their story</p>
                     </div>
                     <div>
-                        <img src="buzzfeed.jpg" alt="buzzfeed">
+                        <a href="https://envoy.com/case-studies/buzzfeed/"><img src="buzzfeed.jpg" alt="buzzfeed"></a>
                         <h4>buzzFeed</h4>
                         A newsworthy plan to welcome people back safely.
                         <p style="color: #BE3229; font-size: 14px;font-weight: 600;">See what the buzz is about.</p>
@@ -127,6 +145,132 @@
             <div class="index_f_lower">
                 <div><img src="home-logos.svg" alt="logos"></div>
                 
+            </div>
+        </div>
+        <div class="index_g">
+            <div>
+                <h1>Integrations for your every need. A simple API for everything else.</h1>
+                <p>The Envoy platform plugs and plays with the technologies you need most like Slack, Microsoft, Salesforce, and Google.Plus , you can build your own. Find the tools you need and get up and running today. </p>
+                <a href="https://envoy.com/integrations/"><input type="submit" name="" id="" value="Explore integrations"></a>
+            </div>
+            <div>
+                <div>
+                    <a href="https://envoy.com/integrations/slack/"><img src="slack.svg" alt="slack-image"></a>
+                    <h5>Slack</h5>
+                    Instantly notify employee for every Envoy update directly or in specific channels on Slack.
+                </div>
+                <div>
+                    <a href="https://envoy.com/integrations/aruba-clearpass/"><img src="aruba.svg" alt="aruba-image"></a>
+                    <h5>Aruba Clearpass</h5>
+                    Provision unique Wi-Fi network and password details for each Envoy visitor.
+                </div>
+                <div>
+                    <a href="https://envoy.com/integrations/okta/"><img src="okta.png" alt="okta-image" style="height: 40px;"></a>
+                    <h5>okta</h5>
+                    Easily sync employees details from Okta to the Envoy employee directory.
+                </div>
+                <div>
+                    <a href="https://envoy.com/integrations/microsoft-teams/"><img src="microsoft-teams.svg" alt="microsoft-image"></a>
+                    <h5>Microsoft Teams</h5>
+                    Automatically notify employees through a private message for every Envoy update.
+                </div>
+                <div>
+                    <a href="https://envoy.com/integrations/docusign/"><img src="docusign-square.svg" alt="docusign-image"></a>
+                    <h5>Docusign</h5>
+                    Automatically send visitors documents to sign via DocuSign.
+                </div>
+                <div>
+                    <a href="https://envoy.com/integrations/eventbrite/"><img src="eventbrite.png" alt="eventbrite-image" style="height: 40px;"></a>
+                    <h5>Eventbrite</h5>
+                    Simplify event sign-in by importing Eventbrite attendees into Envoy.
+                </div>
+                <div>
+                    <a href="https://envoy.com/integrations/google-drive/"><img src="g-suite.png" alt="google-image" style="height: 40px;"></a>
+                    <h5>Google Drive</h5>
+                    Connect any Google Drive account to easily store signed legal documents.
+                </div>
+                <div>
+                    <a href="https://envoy.com/integrations/openpath/"><img src="openpath-o.svg" alt="openpath-image"></a>
+                    <h5>Openpath</h5>
+                    Manae building access for employees and visitors from anywhere.
+                </div>
+            </div>
+        </div>
+        <div class="index_h">
+            <div>
+                <div>
+                    <h1>Try Envoy for free</h1>
+                    Transforming your workplace is easier than you think. Get started in minutes.
+                </div>
+                <div>
+                    <input type="email" name="email" id="email_box" placeholder="Enter your email" style="background-color:#F6F6F9 ;border-radius: 8px;height: 40px;width: 50%;">
+                    <input type="submit" value="Get started" style="height: 40px; background-color: orangered;color: white; border-radius: 8px;width:40% ;"></input>
+    
+                </div>
+
+            </div>
+            <div>
+                <hr>
+                <i class="fa fa-phone" style="font-size:24px"></i> Contact our sales team today at <a href="tel:877652808"><span>(877)652-2808</span></a>
+                <hr>
+            </div>
+            <div>
+                <div>
+                    <h5 style="color: black;font-size:14px;">Products</h5>
+               <div>     Protect </div>
+                  <div>  Desks beta </div>
+                <div>    Visitors </div>         
+             <div>       Rooms </div>
+                  <div>  Deliveries </div>
+              <div>      Mobile </div>
+                    <div>Integrations </div>
+                    <div>Partnerships </div>
+               <div>     Pricing </div>
+                 <div>Get a quote</div>   
+                </div>
+                <div>
+                    <h5 style="color: black;font-size:14px;">solutions</h5>
+                    <div> Enterprise </div>
+                    <div> Security </div>
+                    <div> Touchless sign-in</div> 
+                    <div> Compliance</div> 
+                    <div>Access control</div>
+                    <div>Efficiency</div> 
+                    <div> Experience</div>
+                </div>
+                <div>
+                    <h5 style="color: black;font-size:14px;">Resources</h5>
+                    <div>Help center</div> 
+                    <div>COVID-19 resource hub</div> 
+                    <div>Envoy Store</div> 
+                    <div>Customer stories </div>
+                    <div>Demo</div> 
+                    <div>Compliance tips </div>
+                    <div>Envoy API</div>
+                </div>
+                <div>
+                    <h5 style="color: black;font-size:14px;">Resources</h5>
+                   <div>About Envoy </div> 
+                   <div>Vision </div> 
+                   <div>Jobs </div>
+                   <div> Blog </div>
+                   <div> Data security </div>
+                   <div> Press </div>
+                   <div> Partner</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <a href="https://envoy.com/contact/"><div>Contact</div></a>
+                <a href="https://status.envoy.com/"><div>Status</div></a>
+                <a href="https://envoy.com/tos/"><div>Terms of Service</div></a>
+                <a href="https://envoy.com/privacypolicy/"><div>Privacy Policy</div></a>
+            </div>
+            <div>
+                <div> <a href="https://www.facebook.com/SignWithEnvoy/"><img src="facebook1.png" alt="fb_icon"></a></div>
+                <div> <a href="https://twitter.com/envoy/"><img src="twitter.jpg" alt="tw_icon"></a>  </div>
+                <div> <a href="https://www.linkedin.com/company/3554116/"><img src="linkedin.jpg" alt="li_icon"></a> </div>
             </div>
         </div>
         
