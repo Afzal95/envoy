@@ -186,7 +186,7 @@ span{
     float: left;
     margin-left: 96px;
     margin-top: -26px;
-    color: #7e8086;
+    color: #7e8086;                                               y        x
     font-size: 16px;
 }
 .flex > div >h3{
@@ -199,5 +199,129 @@ span{
 .protect > div:nth-child(2){
     margin-left: -77px;
 }
+
+/* platform3 */
+#platform3{
+    width: 1895px;
+    height: 998px;
+    background-color: rgb(242, 244, 245);
+}
+#platform3>div{
+    width: 815px;
+    height: 733px;
+    /* border: 1px solid gray; */
+    padding-top: 80px;
+    padding-left: 450px;
+}
+
+#platform3 > div > div>div:nth-child(2)>img,#platform3 > div > div>div:nth-child(3)>img,#platform3 > div > div:nth-child(2)>div:nth-child(1)>img{
+    width: 30px;
+
+    background-color: rgb(245, 240, 240);
+    border-radius: 25px;
+}
+#platform3 > div > div>div:nth-child(1)>h1{
+    color:#4141a2;
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
+    margin-top: 16px;
+    
+
+
+
+}
+#platform3 > div > div>div:nth-child(2)>h3,#platform3 > div >div:nth-child(2)>div>h3{
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+#platform3 > div > div>div:nth-child(2)>p,#platform3 > div > div>div:nth-child(3)>p, #platform3 > div >div:nth-child(2)>div>p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 25px;
+
+}
+#platform3 > div > div>div:nth-child(2)>p>span,#platform3 > div > div>div:nth-child(3)>p>span, #platform3 > div >div:nth-child(2)>div>p>span{
+    color:#6161FF;
+    font-weight:500;
+    background-color: transparent;
+}
+#platform3 > div > div>div:nth-child(2),#platform3 > div > div>div:nth-child(3){
+    margin-left: 190px;
+    margin-top: 65px;
+}
+#platform3 > div >div:nth-child(2)>div:nth-child(1){
+    float: right;
+    margin-top: -740px;
+}
+#platform3 > div >div:nth-child(2)>div:nth-child(2){
+    float: right;
+    margin-top: -430px;
+}
+#platform3>div{
+    margin-top: 120px;
+
+}
+
+/* Platform4  */
+#platform4{
+    height: 724px;
+    width: 1895px;
+    background-color: #3F4450;
+    margin-top: -40px;
+}
+#platform4 >div >h2{
+        font-size: 56px;
+        color: #FFFFFF;
+        padding-left: 325px;
+        font-weight: 500;
+        text-align: left;
+        margin: 24px;
+        padding-top: 150px;
+
+}
+#platform4 >div >h3{
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 35px;
+    padding-left: 325px;
+    margin: 24px;
+
+
+
+}
+#platform4 >div >a>button{
+    height: 40px;
+    width: 190px;
+    border-radius: 4px;
+    background-color:#d3d236;
+    font-size: 16px;
+    color: #3F4450;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    margin-top: 45px;
+    margin-left: 349px;
+}
+#platform4 >div:nth-child(2){
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
