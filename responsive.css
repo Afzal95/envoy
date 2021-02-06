@@ -1,0 +1,18 @@
+img{
+    
+    max-width:100%;
+    height: auto;
+}
+body{
+    font-size: 1vw;
+}
+
+@media only screen and (max-width:620px)
+{
+    /* For mobile phones: */
+    #enterprise,#main_block,#health,#security,#compliance,.meggit,#scale,#platform,#platform3,#platform4,#featured_content,,#footer_section,#deskreserved+div,img {
+      width:100%;
+    }
+  }
+
+  
