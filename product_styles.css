@@ -347,7 +347,7 @@ p {
   background-color: red;
 } */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 992px) {
   #one {
     flex-direction: column;
   }
@@ -366,6 +366,9 @@ p {
   #cont-p {
     text-align: center;
   }
+  #mid-nav-div {
+    display: none;
+  }
   .right {
     margin: 0;
   }
@@ -381,5 +384,12 @@ p {
       "six"
       "seven"
       "eight";
+  }
+  #overview-1,
+  #overview-2,
+  #overview-3,
+  #overview-4,
+  #overview-5 {
+    display: block;
   }
 }
