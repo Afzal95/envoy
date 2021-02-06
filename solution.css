@@ -168,7 +168,7 @@ span{
 .platform>div{
     width: 1220px;
     height: 630px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
 }
 /* flex */
@@ -523,17 +523,20 @@ form{
     margin-top: 80px;
     margin-left: 340px;
 }
+.items:nth-child(1){
+    margin-top: -10px;
+}
 .items:nth-child(2){
     margin-left: 580px;
-    margin-top: -376px;
+    margin-top: -450px;
 }
 .items:nth-child(3){
     margin-left: 815px;
-    margin-top: -270px;
+    margin-top: -330px;
 }
 .items:nth-child(4){
     margin-left: 1140px;
-    margin-top: -270px;
+    margin-top: -340px;
 }
 
 #last_item{

@@ -100,7 +100,7 @@ form+p>a{
 
 #enterprice{
     background-color: #4141a2;
-}
+   }
 #enterprice>div{
     margin-left: 360px;
     margin-top: 10px;
@@ -108,11 +108,15 @@ form+p>a{
 #enterprice>div>img{
     margin-top: 10px;
 }
+#sticky_nav{
+    display: block;
+    z-index: 40;
+   }
 #container{
     display: flex;
     justify:center;
-
-    gap:20px
+    gap:80px;
+    
 }
 #container>a:nth-child(n){
     color:#3f4450;
@@ -121,9 +125,12 @@ form+p>a{
     
     padding-right: 16px;
     font-weight: 600;
-    
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
     
 }
+
 
 
 
