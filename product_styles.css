@@ -100,7 +100,9 @@ p {
   margin-left: 50px;
   margin-top: 50px;
 }
-
+#overview-1 > div:nth-child(2) {
+  margin-top: 150px;
+}
 #overview-1 > div > h1 {
   font-size: 42px;
   margin-bottom: 30px;
